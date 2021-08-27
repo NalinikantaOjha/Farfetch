@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayout"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="0.9"
+        android:layout_height="0dp"
+        style="@style/CardView.">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="10"
+            style="@style/LinearLayout"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_weight="9"
+                android:text="@string/farfetch"
+                style="@style/TextView"
+                android:layout_width="0dp">
+            </TextView>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/IvBag"
+                android:src="@drawable/ic_baseline_shopping_bag_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo">
+            </ImageView>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <Button
+
+        android:textAllCaps="false"
+       android:layout_width="wrap_content"
+        android:layout_weight="0.3"
+        android:text="@string/refine"
+        android:textSize="20sp"
+        android:id="@+id/sort"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRefine"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/sortLow"
+            android:text="@string/price_low_first"
+            android:textSize="15sp"
+           style="@style/TextView">
+
+        </TextView>
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/sortHigh"
+                android:text="@string/price_high_first"
+                android:textSize="15sp"
+                style="@style/TextView">
+
+            </TextView>
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/sortNew"
+                android:text="@string/new_picks"
+                android:textSize="15sp"
+                style="@style/TextView">
+
+            </TextView>
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/sortOur"
+                android:text="@string/our_picks"
+                android:textSize="15sp"
+                style="@style/TextView">
+
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView_home"
+        android:layout_width="wrap_content"
+        android:layout_weight="9"
+        android:layout_height="0dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

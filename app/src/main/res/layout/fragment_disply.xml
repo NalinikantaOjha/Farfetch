@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayout"
+    android:orientation="vertical"
+    android:weightSum="10"
+   >
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        style="@style/CardView.">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="10"
+            style="@style/LinearLayout"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_weight="9"
+                android:text="@string/farfetch"
+                style="@style/TextView"
+                android:layout_width="0dp">
+            </TextView>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/IvBag"
+                android:src="@drawable/ic_baseline_shopping_bag_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo">
+            </ImageView>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView_home"
+        android:layout_width="wrap_content"
+        android:layout_weight="9"
+        android:layout_height="0dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

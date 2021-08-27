@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="Activity.PaymentActivity">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/p1"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/p2"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/debitcard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:src="@drawable/debitcard"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/creditcard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:src="@drawable/creditcard"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/paytm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:src="@drawable/paytm"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/netbanking"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:src="@drawable/netbanking"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/upi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:src="@drawable/upi"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:src="@drawable/p3"
+        android:contentDescription="@string/todo" />
+</LinearLayout>

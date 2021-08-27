@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayout"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="0.9"
+        android:layout_height="0dp"
+        style="@style/CardView.">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="10"
+            style="@style/LinearLayout"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_weight="9"
+                android:text="@string/farfetch"
+                style="@style/TextView"
+                android:layout_width="0dp">
+            </TextView>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/IvBag"
+                android:src="@drawable/ic_baseline_shopping_bag_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo">
+            </ImageView>
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:text="@string/me"
+        android:layout_margin="20dp"
+        android:textSize="40sp"
+        android:layout_height="wrap_content"
+       style="@style/TextView">
+
+    </TextView>
+    <TextView
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_margin="30dp"
+        android:text="@string/access_your_bag_amp_wishlist_on_any_of_your_devices"
+        style="@style/TextView">
+
+    </TextView>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        style="@style/LinearLayout">
+        <Button
+            android:id="@+id/mBtnCreateAccountM"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@color/LightGrey"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:text="@string/create_account"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+
+            >
+
+        </Button>
+        <Button
+            android:id="@+id/mBtnSignInM"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:text="@string/sign_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

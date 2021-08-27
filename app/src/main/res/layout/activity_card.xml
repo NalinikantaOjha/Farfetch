@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1d8e0"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="Activity.CardActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/card1" />
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20">
+
+        <LinearLayout
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                style="@style/TextView"
+                android:text="ENTER CARD NUMBER"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etCardNumber"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_margin="@dimen/dp_10"
+                android:inputType="number"
+                android:background="@drawable/et_background"
+                android:hint="XXXX XXXX XXXX XXXX">
+
+            </EditText>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VALID TILL"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dp_20"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SECURITY CODE"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dp_20"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </TextView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_10">
+
+                <EditText
+                    android:id="@+id/etMonth"
+                    android:layout_width="@dimen/dp_70"
+                    android:layout_height="@dimen/dp_40"
+                    android:background="@drawable/et_background"
+                    android:hint="  MM"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etYear"
+                    android:layout_width="@dimen/dp_70"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:background="@drawable/et_background"
+                    android:hint="  YY"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    app:layout_constraintStart_toEndOf="@id/etMonth"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etCcv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginRight="10sp"
+                    android:background="@drawable/et_background"
+                    android:hint="  CCV    ? "
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </EditText>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/mBtnPayNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_20"
+        android:background="@color/Blue"
+        android:text="Pay now"
+        android:textAllCaps="false"
+        android:textSize="@dimen/dp_20"
+        android:textStyle="bold">
+
+    </Button>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/card4">
+
+    </ImageView>
+</LinearLayout>

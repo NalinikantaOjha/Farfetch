@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Farfetch</string>
+    <string name="todo">TODO</string>
+    <string name="farfetch">FARFETCH</string>
+    <string name="sale_2_000_items_now_at_70_off">Sale | 2,000 items,now at 70 % off</string>
+    <string name="first_look_fall_layers">First look : fall layers</string>
+    <string name="sign_in_for_a_tailored_shopping_experience">Sign in for a tailored shopping experience</string>
+    <string name="create_account">Create account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="let_s_get_personal">let\'s get personal</string>
+    <string name="thom_browne">Thom Browne</string>
+    <string name="fun_mix_tweed_jumper">Fun Mix tweed jumper</string>
+    <string name="_1_199">$1,199</string>
+    <string name="dollar">$</string>
+    <string name="_1_19">1,199</string>
+    <string name="i_m_new_here">I\'m new here</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_passwoed">Forgot Passwoed?</string>
+    <string name="or">OR</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_gogle">Continue with Gogle</string>
+    <string name="new_to_faretch_register">New to Faretch? Register</string>
+    <string name="register">Register</string>
+    <string name="first_and_last_name">First and last name</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="myaccount">MyAccount</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">name</string>
+    <string name="sort_by_price">Sort by price</string>
+    <string name="me">ME</string>
+    <string name="access_your_bag_amp_wishlist_on_any_of_your_devices"><![CDATA[Access your Bag & Wishlist on any of Your devices]]></string>
+    <string name="refine">Refine</string>
+    <string name="price_low_first">Price(low first)</string>
+    <string name="price_high_first">Price(high first)</string>
+    <string name="new_picks">New Picks</string>
+    <string name="our_picks">Our Picks</string>
+    <string name="name1">Name</string>
+
+    <string name="payment">payment</string>
+    <string name="sign_out">Sign Out</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326831107076",
+    "project_id": "farfetch-63753",
+    "storage_bucket": "farfetch-63753.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326831107076:android:21ff111672d1f91724d951",
+        "android_client_info": {
+          "package_name": "com.example.farfetch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326831107076-o5mou0l9ce7crvrfk9ldth65flhrs308.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfWikYItmsvC8GH51tkXTqjYsJuZddO8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326831107076-o5mou0l9ce7crvrfk9ldth65flhrs308.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

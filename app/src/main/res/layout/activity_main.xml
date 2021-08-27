@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@style/CardView."
+    >
+    <ImageView
+       style="@style/ImageView"
+        android:src="@drawable/farfetch"
+        android:contentDescription="@string/todo">
+
+    </ImageView>
+
+</androidx.cardview.widget.CardView>
